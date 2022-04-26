@@ -1,0 +1,146 @@
+* {
+    font-size: 16px;
+     border-radius: 20px;
+}
+
+body {
+    width: 100%;
+    background: #323232;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #E2E4EF;
+}
+
+.wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_part {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    height: 125px;
+    width: 100px;
+    background-color: #8892BF;
+    margin-right: 25px;
+    padding: 10px 75px 20px 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    background-color: #8892BF;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.post {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+.post_form_delete {
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+.delete {
+    padding: 5px 15px;
+}
+
+.post_picture {    
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.post_picture img {  
+    max-width: 100%;
+    height: auto;
+}
+
+.add_comment_form {
+    display: flex;
+}
+
+.add_comment_form input {
+    display: flex;
+    flex-grow: 1;
+    height: 30px;
+    margin-right: 10px;    
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+    margin: 25px 0px;
+}
+
+.comment p, h3, h4, h5 {
+    margin: 0;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+}
+
+.registration form {
+    width: 45%;
+}
+
+.registration form p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.registration form input{
+    height: 30px;
+    margin-right: 10px; 
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 5px none;
+}
+
+.load_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #8892BF;
+}
+
+.load_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    border-radius: 0%;
+    border: 5px none;
+}
